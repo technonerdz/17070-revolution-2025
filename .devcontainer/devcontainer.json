@@ -1,0 +1,11 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "postCreateCommand": "",
+    "features": {
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": ["vscjava.vscode-java-pack","vscjava.vscode-gradle"]
+      }
+    }
+  }
