@@ -8,6 +8,4 @@ RUN apt update && export DEBIAN_FRONTEND=noninteractive \
     # && sdkmanager --install "tools" \
     && yes | sdkmanager --licenses
 
-COPY post-create-env.sh /usr/local/post-create-env.sh
-
 ENV ANDROID_HOME="/opt/android-sdk/"
